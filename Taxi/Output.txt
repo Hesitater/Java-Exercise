@@ -1,0 +1,406 @@
+
+Request {location=[77, 62], destination=[79, 79], time=1494839273553}
+No taxi available at beginning.
+No taxi can get order now.
+
+Request {location=[77, 57], destination=[79, 79], time=1494839273552}
+No taxi available at beginning.
+No taxi can get order now.
+
+Request {location=[77, 52], destination=[79, 79], time=1494839273550}
+No taxi available at beginning.
+No taxi can get order now.
+
+Request {location=[77, 67], destination=[79, 79], time=1494839273555}
+No taxi available at beginning.
+No taxi can get order now.
+
+Request {location=[77, 77], destination=[79, 79], time=1494839273557}
+Taxis that can get order at beginning:
+Taxi No.93 {state = wandering, credit = 0, location = [76, 77]}
+Taxis that have scrambled the order:
+Taxi No.93 {state = wandering, credit = 0, location = [76, 77]}
+Taxi to get order: 
+Taxi No.93 {state = picking up customer, credit = 1, location = [77, 78]}
+
+Request {location=[77, 72], destination=[79, 79], time=1494839273556}
+No taxi available at beginning.
+No taxi can get order now.
+
+Request {location=[23, 57], destination=[31, 56], time=1494839273999}
+Taxis that can get order at beginning:
+Taxi No.69 {state = wandering, credit = 0, location = [24, 55]}
+Taxi No.80 {state = wandering, credit = 0, location = [24, 59]}
+Taxis that have scrambled the order:
+Taxi No.69 {state = wandering, credit = 0, location = [24, 55]}
+Taxi No.80 {state = wandering, credit = 0, location = [24, 59]}
+Taxi to get order: 
+Taxi No.80 {state = picking up customer, credit = 1, location = [21, 57]}
+
+Request {location=[77, 72], destination=[79, 79], time=1494859664385}
+No taxi available at beginning.
+Taxis that have scrambled the order:
+Taxi No.50 {state = wandering, credit = 1, location = [76, 70]}
+No taxi can get order now.
+
+Request {location=[77, 52], destination=[79, 79], time=1494859664376}
+No taxi available at beginning.
+No taxi can get order now.
+
+Request {location=[77, 67], destination=[79, 79], time=1494859664383}
+Taxis that can get order at beginning:
+Taxi No.50 {state = wandering, credit = 0, location = [78, 68]}
+Taxis that have scrambled the order:
+Taxi No.50 {state = wandering, credit = 0, location = [78, 68]}
+Taxi to get order: 
+Taxi No.50 {state = picking up customer, credit = 2, location = [71, 70]}
+
+Request {location=[77, 77], destination=[79, 79], time=1494859664387}
+No taxi available at beginning.
+No taxi can get order now.
+
+Request {location=[77, 57], destination=[79, 79], time=1494859664379}
+No taxi available at beginning.
+No taxi can get order now.
+
+Request {location=[77, 57], destination=[79, 79], time=1494859666774}
+No taxi available at beginning.
+No taxi can get order now.
+
+Request {location=[77, 72], destination=[79, 79], time=1494859666778}
+No taxi available at beginning.
+No taxi can get order now.
+
+Request {location=[77, 77], destination=[79, 79], time=1494859665995}
+No taxi available at beginning.
+No taxi can get order now.
+
+Request {location=[77, 67], destination=[79, 79], time=1494859665993}
+No taxi available at beginning.
+No taxi can get order now.
+
+Request {location=[77, 72], destination=[79, 79], time=1494859665994}
+No taxi available at beginning.
+No taxi can get order now.
+
+Request {location=[23, 57], destination=[31, 56], time=1494859665459}
+No taxi available at beginning.
+No taxi can get order now.
+
+Request {location=[77, 52], destination=[79, 79], time=1494859665988}
+No taxi available at beginning.
+No taxi can get order now.
+
+Request {location=[77, 52], destination=[79, 79], time=1494859666773}
+No taxi available at beginning.
+No taxi can get order now.
+
+Request {location=[77, 77], destination=[79, 79], time=1494859666779}
+No taxi available at beginning.
+No taxi can get order now.
+
+Request {location=[23, 57], destination=[31, 56], time=1494859666244}
+No taxi available at beginning.
+No taxi can get order now.
+
+Request {location=[23, 57], destination=[31, 56], time=1494859666922}
+No taxi available at beginning.
+No taxi can get order now.
+
+Request {location=[77, 67], destination=[79, 79], time=1494859666777}
+No taxi available at beginning.
+No taxi can get order now.
+
+Request {location=[77, 57], destination=[79, 79], time=1494859665989}
+No taxi available at beginning.
+No taxi can get order now.
+
+Request {location=[77, 67], destination=[79, 79], time=1494921010135}
+No taxi available at beginning.
+No taxi can get order now.
+
+Request {location=[77, 57], destination=[79, 79], time=1494921010133}
+No taxi available at beginning.
+No taxi can get order now.
+
+Request {location=[77, 77], destination=[79, 79], time=1494921010138}
+No taxi available at beginning.
+No taxi can get order now.
+
+Request {location=[77, 52], destination=[79, 79], time=1494921010131}
+No taxi available at beginning.
+No taxi can get order now.
+
+Request {location=[77, 72], destination=[79, 79], time=1494921010137}
+No taxi available at beginning.
+No taxi can get order now.
+
+Request {location=[77, 62], destination=[79, 79], time=1494921010134}
+No taxi available at beginning.
+Taxis that have scrambled the order:
+Taxi No.61 {state = wandering, credit = 0, location = [75, 63]}
+Taxi to get order: 
+Taxi No.61 {state = picking up customer, credit = 3, location = [76, 61]}
+
+Request {location=[23, 57], destination=[31, 56], time=1494921010960}
+Taxis that can get order at beginning:
+Taxi No.34 {state = wandering, credit = 0, location = [25, 55]}
+Taxis that have scrambled the order:
+Taxi No.34 {state = wandering, credit = 0, location = [25, 55]}
+Taxi to get order: 
+Taxi No.34 {state = picking up customer, credit = 3, location = [25, 58]}
+
+Request {location=[77, 57], destination=[79, 79], time=1494921011851}
+No taxi available at beginning.
+No taxi can get order now.
+
+Request {location=[77, 52], destination=[79, 79], time=1494921011849}
+No taxi available at beginning.
+Taxis that have scrambled the order:
+Taxi No.22 {state = wandering, credit = 0, location = [75, 52]}
+Taxi to get order: 
+Taxi No.22 {state = picking up customer, credit = 3, location = [75, 52]}
+
+Request {location=[77, 62], destination=[79, 79], time=1494921011852}
+Taxis that can get order at beginning:
+Taxi No.61 {state = wandering, credit = 1, location = [75, 60]}
+Taxis that have scrambled the order:
+Taxi No.61 {state = wandering, credit = 1, location = [75, 60]}
+No taxi can get order now.
+
+Request {location=[77, 67], destination=[79, 79], time=1494921011853}
+No taxi available at beginning.
+No taxi can get order now.
+
+Request {location=[77, 77], destination=[79, 79], time=1494921011856}
+No taxi available at beginning.
+No taxi can get order now.
+
+Request {location=[77, 72], destination=[79, 79], time=1494921011855}
+No taxi available at beginning.
+No taxi can get order now.
+
+Request {location=[23, 57], destination=[31, 56], time=1494921012210}
+Taxis that can get order at beginning:
+Taxi No.34 {state = wandering, credit = 1, location = [23, 57]}
+Taxis that have scrambled the order:
+Taxi No.34 {state = wandering, credit = 1, location = [23, 57]}
+No taxi can get order now.
+
+Request {location=[77, 52], destination=[79, 79], time=1494921012753}
+No taxi available at beginning.
+Taxis that have scrambled the order:
+Taxi No.22 {state = wandering, credit = 0, location = [75, 52]}
+No taxi can get order now.
+
+Request {location=[77, 72], destination=[79, 79], time=1494921012758}
+No taxi available at beginning.
+No taxi can get order now.
+
+Request {location=[77, 62], destination=[79, 79], time=1494921012756}
+Taxis that can get order at beginning:
+Taxi No.61 {state = wandering, credit = 2, location = [76, 60]}
+Taxis that have scrambled the order:
+Taxi No.61 {state = wandering, credit = 2, location = [76, 60]}
+No taxi can get order now.
+
+Request {location=[77, 57], destination=[79, 79], time=1494921012754}
+No taxi available at beginning.
+No taxi can get order now.
+
+Request {location=[77, 67], destination=[79, 79], time=1494921012757}
+No taxi available at beginning.
+No taxi can get order now.
+
+Request {location=[77, 77], destination=[79, 79], time=1494921012759}
+No taxi available at beginning.
+No taxi can get order now.
+
+Request {location=[23, 57], destination=[31, 56], time=1494921013392}
+Taxis that can get order at beginning:
+Taxi No.34 {state = wandering, credit = 2, location = [24, 58]}
+Taxis that have scrambled the order:
+Taxi No.34 {state = wandering, credit = 2, location = [24, 58]}
+No taxi can get order now.
+
+Request {location=[77, 57], destination=[79, 79], time=1494921014094}
+No taxi available at beginning.
+No taxi can get order now.
+
+Request {location=[77, 62], destination=[79, 79], time=1494921014095}
+Taxis that can get order at beginning:
+Taxi No.61 {state = stop, credit = 3, location = [77, 62]}
+Taxis that have scrambled the order:
+Taxi No.61 {state = stop, credit = 3, location = [77, 62]}
+No taxi can get order now.
+
+Request {location=[77, 52], destination=[79, 79], time=1494921014092}
+No taxi available at beginning.
+Taxis that have scrambled the order:
+Taxi No.22 {state = wandering, credit = 0, location = [75, 52]}
+No taxi can get order now.
+
+Request {location=[77, 72], destination=[79, 79], time=1494921014097}
+No taxi available at beginning.
+Taxis that have scrambled the order:
+Taxi No.43 {state = wandering, credit = 0, location = [75, 70]}
+No taxi can get order now.
+
+Request {location=[77, 67], destination=[79, 79], time=1494921014096}
+No taxi available at beginning.
+Taxis that have scrambled the order:
+Taxi No.43 {state = wandering, credit = 2, location = [75, 69]}
+Taxi No.61 {state = serving, credit = 5, location = [78, 65]}
+Taxi to get order: 
+Taxi No.43 {state = picking up customer, credit = 4, location = [75, 69]}
+
+Request {location=[77, 77], destination=[79, 79], time=1494921014098}
+No taxi available at beginning.
+No taxi can get order now.
+
+Request {location=[23, 57], destination=[31, 56], time=1494921014613}
+Taxis that can get order at beginning:
+Taxi No.34 {state = picking up customer, credit = 3, location = [25, 59]}
+Taxis that have scrambled the order:
+Taxi No.34 {state = picking up customer, credit = 3, location = [25, 59]}
+Taxi No.10 {state = wandering, credit = 0, location = [21, 56]}
+Taxi to get order: 
+Taxi No.10 {state = picking up customer, credit = 2, location = [21, 57]}
+
+Request {location=[77, 52], destination=[79, 79], time=1494921015168}
+Taxis that can get order at beginning:
+Taxi No.22 {state = picking up customer, credit = 3, location = [75, 53]}
+Taxis that have scrambled the order:
+Taxi No.22 {state = picking up customer, credit = 3, location = [75, 53]}
+No taxi can get order now.
+
+Request {location=[77, 67], destination=[79, 79], time=1494921015172}
+No taxi available at beginning.
+Taxis that have scrambled the order:
+Taxi No.43 {state = wandering, credit = 2, location = [75, 69]}
+Taxi No.61 {state = serving, credit = 5, location = [78, 65]}
+No taxi can get order now.
+
+Request {location=[77, 57], destination=[79, 79], time=1494921015169}
+No taxi available at beginning.
+No taxi can get order now.
+
+Request {location=[77, 72], destination=[79, 79], time=1494921015173}
+No taxi available at beginning.
+Taxis that have scrambled the order:
+Taxi No.43 {state = wandering, credit = 0, location = [75, 70]}
+No taxi can get order now.
+
+Request {location=[77, 77], destination=[79, 79], time=1494921015175}
+No taxi available at beginning.
+No taxi can get order now.
+
+Request {location=[77, 62], destination=[79, 79], time=1494921015170}
+Taxis that can get order at beginning:
+Taxi No.61 {state = serving, credit = 4, location = [77, 62]}
+Taxis that have scrambled the order:
+Taxi No.61 {state = serving, credit = 4, location = [77, 62]}
+No taxi can get order now.
+
+Request {location=[23, 57], destination=[31, 56], time=1494921015629}
+Taxis that can get order at beginning:
+Taxi No.34 {state = picking up customer, credit = 4, location = [24, 57]}
+Taxis that have scrambled the order:
+Taxi No.34 {state = picking up customer, credit = 4, location = [24, 57]}
+Taxi No.10 {state = wandering, credit = 0, location = [21, 56]}
+No taxi can get order now.
+
+Request {location=[77, 57], destination=[79, 79], time=1494921039970}
+No taxi available at beginning.
+No taxi can get order now.
+
+Request {location=[77, 52], destination=[79, 79], time=1494921039968}
+No taxi available at beginning.
+No taxi can get order now.
+
+Request {location=[77, 67], destination=[79, 79], time=1494921039972}
+No taxi available at beginning.
+No taxi can get order now.
+
+Request {location=[77, 62], destination=[79, 79], time=1494921039971}
+No taxi available at beginning.
+No taxi can get order now.
+
+Request {location=[77, 77], destination=[79, 79], time=1494921039975}
+No taxi available at beginning.
+Taxis that have scrambled the order:
+Taxi No.22 {state = wandering, credit = 8, location = [78, 75]}
+Taxi to get order: 
+Taxi No.22 {state = picking up customer, credit = 9, location = [77, 78]}
+
+Request {location=[77, 72], destination=[79, 79], time=1494921039974}
+Taxis that can get order at beginning:
+Taxi No.22 {state = wandering, credit = 7, location = [79, 74]}
+Taxis that have scrambled the order:
+Taxi No.22 {state = wandering, credit = 7, location = [79, 74]}
+Taxi No.43 {state = wandering, credit = 7, location = [75, 74]}
+Taxi to get order: 
+Taxi No.43 {state = picking up customer, credit = 8, location = [74, 74]}
+
+Request {location=[23, 57], destination=[31, 56], time=1494921040297}
+No taxi available at beginning.
+No taxi can get order now.
+
+Request {location=[77, 77], destination=[79, 79], time=1494921055029}
+Taxis that can get order at beginning:
+Taxi No.43 {state = wandering, credit = 11, location = [78, 79]}
+Taxis that have scrambled the order:
+Taxi No.43 {state = wandering, credit = 11, location = [78, 79]}
+Taxi to get order: 
+Taxi No.43 {state = picking up customer, credit = 12, location = [70, 79]}
+
+Request {location=[77, 72], destination=[79, 79], time=1494921055027}
+No taxi available at beginning.
+Taxis that have scrambled the order:
+Taxi No.22 {state = wandering, credit = 12, location = [75, 72]}
+Taxi to get order: 
+Taxi No.22 {state = picking up customer, credit = 13, location = [71, 72]}
+
+Request {location=[77, 52], destination=[79, 79], time=1494921055022}
+No taxi available at beginning.
+No taxi can get order now.
+
+Request {location=[77, 67], destination=[79, 79], time=1494921055026}
+No taxi available at beginning.
+No taxi can get order now.
+
+Request {location=[77, 62], destination=[79, 79], time=1494921055025}
+No taxi available at beginning.
+No taxi can get order now.
+
+Request {location=[77, 57], destination=[79, 79], time=1494921055024}
+No taxi available at beginning.
+No taxi can get order now.
+
+Request {location=[23, 57], destination=[31, 56], time=1494921055827}
+No taxi available at beginning.
+No taxi can get order now.
+
+Request {location=[35, 10], destination=[32, 34], time=1494921348606}
+Taxis that can get order at beginning:
+Taxi No.4 {state = wandering, credit = 0, location = [33, 11]}
+Taxis that have scrambled the order:
+Taxi No.4 {state = wandering, credit = 0, location = [33, 11]}
+Taxi No.9 {state = wandering, credit = 0, location = [33, 8]}
+Taxi to get order: 
+Taxi No.9 {state = picking up customer, credit = 1, location = [33, 8]}
+
+Request {location=[25, 34], destination=[32, 34], time=1494921757774}
+No taxi available at beginning.
+Taxis that have scrambled the order:
+Taxi No.45 {state = wandering, credit = 0, location = [27, 32]}
+Taxi to get order: 
+Taxi No.45 {state = picking up customer, credit = 1, location = [29, 34]}
+
+Request {location=[25, 34], destination=[32, 34], time=1494921769276}
+Taxis that can get order at beginning:
+Taxi No.88 {state = wandering, credit = 0, location = [23, 32]}
+Taxis that have scrambled the order:
+Taxi No.88 {state = wandering, credit = 0, location = [23, 32]}
+Taxi to get order: 
+Taxi No.88 {state = picking up customer, credit = 1, location = [24, 35]}

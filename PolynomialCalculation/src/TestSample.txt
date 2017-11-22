@@ -1,0 +1,86 @@
+{\rtf1\ansi\ansicpg936\cocoartf1504\cocoasubrtf600
+{\fonttbl\f0\fnil\fcharset134 PingFangSC-Regular;\f1\fnil\fcharset0 Monaco;\f2\fswiss\fcharset0 Helvetica;
+\f3\froman\fcharset0 TimesNewRomanPSMT;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;\csgray\c100000;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab420
+\pard\pardeftab420\li420\fi420\ri380\sl360\slmult1\qj\partightenfactor0
+
+\f0\fs24 \cf0 1.\'ce\'de\'ca\'e4\'c8\'eb\
+\'ca\'e4\'c8\'eb:\
+\'ca\'e4\'b3\'f6\'a3\'ba
+\f1 No input. Program ended.\
+\
+2.
+\f0 \'ca\'e4\'c8\'eb\'b7\'c7
+\f2 \'930-9 + - , ( ) \{ \} \'94
+\f0 \'d5\'e2\'bc\'b8\'d6\'d6\'d7\'d6\'b7\'fb\'ba\'cd
+\f2 \'93
+\f0 \'bf\'d5\'b8\'f1
+\f2 \'94\
+
+\f0 \'ca\'e4\'c8\'eb\'a3\'ba
+\f2 \{(1.2,2),(2,5)\}-\{(3,1)\}\
+
+\f0 \'ca\'e4\'b3\'f6\'a3\'ba
+\f1 Input error. Program ended.\
+\
+3.
+\f0 \{\}\'d6\'d0\'ce\'de\'c4\'da\'c8\'dd\
+\'ca\'e4\'c8\'eb\'a3\'ba\{\}+\{\}+\{\}\
+\'ca\'e4\'b3\'f6\'a3\'ba
+\f1 Input error. Program ended.\
+\
+4.
+\f0 \'b5\'da\'d2\'bb\'b8\'f6\'b4\'f3\'c0\'a8\'ba\'c5\'c7\'b0\'d3\'d0\'d5\'fd\'b8\'ba\'ba\'c5\
+\'ca\'e4\'c8\'eb\'a3\'ba+\{(1,2),(3,4)\}-\{(3,2),(4,4)\}\
+\'ca\'e4\'b3\'f6\'a3\'ba\{(-2,2),(-1,4)\}\
+\
+\'ca\'e4\'c8\'eb\'a3\'ba-\{(1,2),(3,4)\}-\{(3,2),(4,4)\}\
+\'ca\'e4\'b3\'f6\'a3\'ba
+\f1 \{(-4,2),(-7,4)\}\
+\
+5.
+\f0 \'cf\'b5\'ca\'fd\'bb\'f2\'d6\'b8\'ca\'fd\'b3\'ac\'b9\'fd6\'ce\'bb\
+\'ca\'e4\'c8\'eb\'a3\'ba\{(10000000,1)\}\
+\'ca\'e4\'b3\'f6\'a3\'ba
+\f1 Input error. Program ended.\
+\
+
+\f0 \'ca\'e4\'c8\'eb\'a3\'ba\{(1,10000000)\}\
+\'ca\'e4\'b3\'f6\'a3\'ba
+\f1 Input error. Program ended.\
+\
+6.
+\f0 \'cd\'ac\'d2\'bb\'b6\'e0\'cf\'ee\'ca\'bd\'d6\'b8\'ca\'fd\'d6\'d8\'b8\'b4\
+\'ca\'e4\'c8\'eb\'a3\'ba\{(1,1),(2,1)\}\
+\'ca\'e4\'b3\'f6\'a3\'ba
+\f1 Duplicating power is not allowed. Program ended
+\f0 \
+\pard\pardeftab420\li420\fi420\ri380\sl360\slmult1\qj\partightenfactor0
+
+\f3 \cf0 \
+\pard\pardeftab420\li420\fi420\ri380\sl360\slmult1\qj\partightenfactor0
+
+\f1 \cf0 7.
+\f0 \'b6\'e0\'cf\'ee\'ca\'bd\'b3\'ac\'b9\'fd
+\f1 20
+\f0 \'b8\'f6\
+\'ca\'e4\'c8\'eb\'a3\'ba\'cb\'e6\'d2\'e221\'b8\'f6\'b6\'e0\'cf\'ee\'ca\'bd\
+\'ca\'e4\'b3\'f6\'a3\'ba
+\f1 Input error. Program ended.\
+\
+8.
+\f0 \'cd\'ac\'d2\'bb\'b6\'e0\'cf\'ee\'ca\'bd\'c4\'da\'cf\'ee\'ca\'fd\'b3\'ac\'b9\'fd
+\f1 50
+\f0 \'b8\'f6\
+\'ca\'e4\'c8\'eb\'a3\'ba\'d2\'bb\'b8\'f6\'b6\'e0\'cf\'ee\'ca\'bd\'c4\'da\'ca\'e4\'c8\'eb51\'b8\'f6\'ca\'fd\'b6\'d4\
+\'ca\'e4\'b3\'f6\'a3\'ba
+\f1 Input error. Program ended.\
+\pard\pardeftab420\li420\fi420\ri380\sl360\slmult1\qj\partightenfactor0
+
+\f3 \cf0 \
+\
+\
+}

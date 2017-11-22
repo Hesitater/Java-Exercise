@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ClassDiagram>
+    <Class name="FirstTaxi.LightReader" x="898" y="-59">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="true" constructors-accepted="true"/>
+        <Communication destinationClassName="FirstTaxi.CityMap"/>
+    </Class>
+    <Class name="FirstTaxi.CarInterface" x="13" y="473">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="true" constructors-accepted="true"/>
+    </Class>
+    <Class name="FirstTaxi.InputHandlerThread" x="-31" y="224">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="true" constructors-accepted="true"/>
+        <Association destinationClassName="FirstTaxi.RequestQueue"
+            endpointName="requestQueue" kind="Simple">
+            <Point x="26" y="161"/>
+        </Association>
+        <Association destinationClassName="FirstTaxi.CityMap"
+            endpointName="map" kind="Simple">
+            <Point x="580" y="279"/>
+        </Association>
+        <Communication destinationClassName="FirstTaxi.RequestQueue"/>
+        <Communication destinationClassName="FirstTaxi.Request"/>
+        <Communication destinationClassName="FirstTaxi.CityMap"/>
+    </Class>
+    <Class name="FirstTaxi.Request" x="590" y="-4">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="true" constructors-accepted="true"/>
+    </Class>
+    <Class name="FirstTaxi.TaxiTest" x="1051" y="-135">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="true"
+            accessors-accepted="true" constructors-accepted="true"/>
+        <Communication destinationClassName="FirstTaxi.LightReader"/>
+        <Communication destinationClassName="FirstTaxi.mapInfo"/>
+        <Communication destinationClassName="FirstTaxi.MapReader"/>
+    </Class>
+    <Class name="FirstTaxi.MapNode" x="1017" y="676">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="true" constructors-accepted="true"/>
+    </Class>
+    <Class name="FirstTaxi.ScannerInterface" x="842" y="604">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="FirstTaxi.ServiceRecord" x="44" y="-103">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="true" constructors-accepted="true"/>
+        <Association destinationClassName="FirstTaxi.Request"
+            endpointName="request" kind="Simple">
+            <Point x="356" y="121"/>
+        </Association>
+    </Class>
+    <Class name="FirstTaxi.LightControllerThread" x="899" y="11">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="true" constructors-accepted="true"/>
+        <Association destinationClassName="FirstTaxi.CityMap"
+            endpointName="map" kind="Simple"/>
+        <Communication destinationClassName="FirstTaxi.CityMap"/>
+    </Class>
+    <Class name="FirstTaxi.TraceableTaxi.ServiceRecordIterator" x="646" y="-143">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="true" constructors-accepted="true"/>
+        <Association destinationClassName="FirstTaxi.TraceableTaxi"
+            endpointName="taxi" kind="Simple"/>
+    </Class>
+    <Class name="FirstTaxi.Taxi" x="234" y="364">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="true" constructors-accepted="true"/>
+        <Extension destinationClassName="FirstTaxi.CarInterface"/>
+        <Association destinationClassName="FirstTaxi.GraphSearch"
+            endpointName="graphSearcher" kind="Simple">
+            <Point x="604" y="738"/>
+        </Association>
+        <Association destinationClassName="FirstTaxi.CityMap"
+            endpointName="map" kind="Simple">
+            <Point x="830" y="516"/>
+        </Association>
+        <Communication destinationClassName="FirstTaxi.Request"/>
+        <Communication destinationClassName="FirstTaxi.MapNode"/>
+        <Communication destinationClassName="FirstTaxi.MyInt"/>
+        <Communication destinationClassName="FirstTaxi.GraphSearch"/>
+        <Communication destinationClassName="FirstTaxi.CityMap"/>
+    </Class>
+    <Class name="FirstTaxi.ControllerThread" x="270" y="164">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="true" constructors-accepted="true"/>
+        <Association destinationClassName="FirstTaxi.Taxi"
+            endpointName="taxis" kind="Simple"/>
+        <Association destinationClassName="FirstTaxi.RequestQueue"
+            endpointName="requestQueue" kind="Simple">
+            <Point x="225" y="122"/>
+        </Association>
+        <Association destinationClassName="FirstTaxi.CityMap"
+            endpointName="map" kind="Simple">
+            <Point x="663" y="202"/>
+        </Association>
+        <Communication destinationClassName="FirstTaxi.RequestQueue"/>
+        <Communication destinationClassName="FirstTaxi.Request"/>
+    </Class>
+    <Class name="FirstTaxi.ScanServerThread" x="659" y="324">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="true" constructors-accepted="true"/>
+        <Extension destinationClassName="FirstTaxi.ScannerInterface"/>
+        <Association destinationClassName="FirstTaxi.Request"
+            endpointName="request" kind="Simple"/>
+        <Association destinationClassName="FirstTaxi.Taxi"
+            endpointName="taxis" kind="Simple">
+            <Point x="717" y="595"/>
+        </Association>
+        <Association destinationClassName="FirstTaxi.GraphSearch"
+            endpointName="graphSearcher" kind="Simple"/>
+        <Association destinationClassName="FirstTaxi.Taxi"
+            endpointName="probableTaxis" kind="Simple"/>
+        <Association destinationClassName="FirstTaxi.CityMap"
+            endpointName="map" kind="Simple"/>
+        <Communication destinationClassName="FirstTaxi.CityMap"/>
+        <Communication destinationClassName="FirstTaxi.Taxi"/>
+    </Class>
+    <Class name="FirstTaxi.RequestQueue" x="-5" y="17">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="true" constructors-accepted="true"/>
+        <Association destinationClassName="FirstTaxi.Request"
+            endpointName="requests" kind="Simple">
+            <Point x="381" y="32"/>
+        </Association>
+    </Class>
+    <Class name="FirstTaxi.MyInt" x="837" y="85">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="true" constructors-accepted="true"/>
+    </Class>
+    <Class name="FirstTaxi.mapInfo" x="900" y="-131">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="true" constructors-accepted="true"/>
+    </Class>
+    <Class name="FirstTaxi.GraphSearch" x="671" y="701">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="true" constructors-accepted="true"/>
+        <Association destinationClassName="FirstTaxi.MapNode"
+            endpointName="newMap" kind="Simple"/>
+        <Communication destinationClassName="FirstTaxi.MapNode"/>
+        <Communication destinationClassName="FirstTaxi.MyInt"/>
+    </Class>
+    <Class name="FirstTaxi.TaxiThread" x="13" y="595">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="true" constructors-accepted="true"/>
+        <Association destinationClassName="FirstTaxi.Taxi"
+            endpointName="taxi" kind="Simple"/>
+        <Communication destinationClassName="FirstTaxi.Taxi"/>
+    </Class>
+    <Class name="FirstTaxi.FluxMonitorThread" x="1060" y="9">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Association destinationClassName="FirstTaxi.CityMap"
+            endpointName="map" kind="Simple"/>
+        <Communication destinationClassName="FirstTaxi.CityMap"/>
+    </Class>
+    <Class name="FirstTaxi.TraceableTaxi" x="306" y="-138">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="true" constructors-accepted="true"/>
+        <Extension destinationClassName="FirstTaxi.Taxi">
+            <Point x="469" y="197"/>
+        </Extension>
+        <Association destinationClassName="FirstTaxi.ServiceRecord"
+            endpointName="serviceRecords" kind="Simple"/>
+        <Communication destinationClassName="FirstTaxi.Request"/>
+        <Communication destinationClassName="FirstTaxi.MapNode"/>
+        <Communication destinationClassName="FirstTaxi.GraphSearch"/>
+        <Communication destinationClassName="FirstTaxi.TraceableTaxi.ServiceRecordIterator"/>
+        <Communication destinationClassName="FirstTaxi.CityMap"/>
+        <Communication destinationClassName="FirstTaxi.Taxi"/>
+    </Class>
+    <Class name="FirstTaxi.TaxiAPI" x="-18" y="356">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="true" constructors-accepted="true"/>
+        <Association destinationClassName="FirstTaxi.Taxi"
+            endpointName="taxis" kind="Simple"/>
+        <Communication destinationClassName="FirstTaxi.Taxi"/>
+    </Class>
+    <Class name="FirstTaxi.CityMap" x="967" y="140">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="true" constructors-accepted="true"/>
+        <Association destinationClassName="FirstTaxi.MyInt"
+            endpointName="fluxes" kind="Simple"/>
+        <Association destinationClassName="FirstTaxi.MapNode"
+            endpointName="originalNewMap" kind="Simple">
+            <Point x="1023" y="649"/>
+        </Association>
+        <Association destinationClassName="FirstTaxi.MapNode"
+            endpointName="newMap" kind="Simple">
+            <Point x="1143" y="652"/>
+        </Association>
+        <Communication destinationClassName="FirstTaxi.MapNode"/>
+    </Class>
+    <Class name="FirstTaxi.MapReader" x="1130" y="-61">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="true" constructors-accepted="true"/>
+        <Communication destinationClassName="FirstTaxi.CityMap"/>
+    </Class>
+</ClassDiagram>
