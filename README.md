@@ -9,5 +9,5 @@
 - IFTTT:  
   Not the one you've ever heard. But you can use the same way as the normal IFTTT in your local directories~
 
-## Add-on
+## Another thing  
 These projects were built for assignments from a course called OO(Object Oriented).
